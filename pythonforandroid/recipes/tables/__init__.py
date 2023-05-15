@@ -1,8 +1,7 @@
-from pythonforandroid.recipe import PythonRecipe
+from pythonforandroid.recipe import Recipe
 from setuptools import setup, Extension
 
-class TablesRecipe(PythonRecipe):
-    print('YYYEEEHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
+class TablesRecipe(Recipe):
     name = 'tables'
     version = '3.8.0'
     depends = ['setuptools','wheel','numpy','packaging','py-cpuinfo','Cython','blosc2 >=2.0.0']
