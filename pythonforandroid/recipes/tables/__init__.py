@@ -1,4 +1,5 @@
 from pythonforandroid.recipe import PythonRecipe
+from setuptools import setup, Extension
 
 class TablesRecipe(PythonRecipe):
     print('YYYEEEHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
